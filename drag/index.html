@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag and Drop test</title>
+    <script src="js.js"></script>
+</head>
+<style>
+div{
+    height: 320px;
+    width: 310px;
+    border: 1px solid black;
+    margin-top: 50px;
+    display: float;
+}
+</style>
+<body>
+    <div ondragstart="onstart(event)" ondragover="allowdrop(event)" ondrop="drop(this)">
+        <img src="../img/back.jpg" height="100px" id="dragged0"  alt="">
+        <img src="../img/back.jpg" height="100px" id="dragged1"  alt="">
+        <img src="../img/back.jpg" height="100px" id="dragged2"  alt="">
+        <img src="../img/back.jpg" height="100px" id="dragged3"  alt="">
+    </div>
+    <div  ondragover="allowdrop(event)" ondragstart="onstart(event)" ondrop="drop(this)">
+
+    </div>
+</body>
+</html>

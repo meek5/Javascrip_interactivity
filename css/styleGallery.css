@@ -1,0 +1,16 @@
+
+#back{
+background-image: url("../img/back.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: 800px;
+height: 500px;
+text-align: center;
+align-content: stretch
+}
+.img{
+    height: 120px;
+}
+#htxt{
+   text-align: center;
+}
